@@ -6,8 +6,8 @@
 
   vars:
     webconsole_hostname: 'hostname'
-    commcell_username: 'username'
-    commcell_password: 'password'
+    commcell_username: '{{ commcell_username }}'
+    commcell_password: '{{ commcell_password }}'
     client: '{{ client_name }}'
 
   tasks:
