@@ -8,7 +8,7 @@
     webconsole_hostname: 'hostname'
     commcell_username: 'username'
     commcell_password: 'password'
-    client: 'sample client'
+    client: '{{ client_name }}'
 
   tasks:
     - name: Commvault commcell initialization
