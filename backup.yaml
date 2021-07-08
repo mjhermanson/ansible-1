@@ -34,7 +34,7 @@
         entity_type: subclient
         commcell: "{{ commcell }}"
         entity: {
-        client: "{{ client }}",
+        client: "{{ client_name }}",
         agent: "file system",
         backupset: "defaultbackupset",
         subclient: "default"
